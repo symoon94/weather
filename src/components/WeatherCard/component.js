@@ -6,7 +6,7 @@ import Condition from "./Condition";
 import Icon from "./Icon";
 
 const WeatherCard = (props) => {
-  const red = 500;
+  const red = 100;
   const Card = styled.div`
     margin: 0 auto;
     background: linear-gradient(to bottom, rgba(${red}, 200, 200), lightblue);
